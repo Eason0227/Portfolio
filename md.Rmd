@@ -1,0 +1,37 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+training_data <- read.csv("C:/Users/assd4/OneDrive/桌面/R/練習資料集/酒分類/Quality_Training_DataSet.csv",head= TRUE)
+testing_data <-read.csv("C:/Users/assd4/OneDrive/桌面/R/練習資料集/酒分類/Answer.csv",head= TRUE)
+```
+
+
+
+## GitHub Documents
+
+This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+```{r}
+training_data
+```
+
+
+## Including Code
+
+You can include R code in the document as follows:
+
+```{r cars}
+summary(training_data)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
